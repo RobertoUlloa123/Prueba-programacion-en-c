@@ -7,15 +7,13 @@ int main()
     printf(" Ingrese un numero para hacer la serie Fibonacci \n");
     scanf("%d",&numero);
     printf (" %d + %d",%n,%n2);
-    for (int limite=n; limite<=n; limite++) 
-    {
-       
-        
-        n3=n+n2
-        n=n3+n2;
-         printf (" %d + %d +  " %n3, %n2, %n);
-         
-         
-    }
+    for(limite = 0; limite < numero; limite++){
+    printf("%d + ",n2);
+    printf("%d + ",n);
+    // no entiendo por que no se queda en el limite 
+    n2 = n2 + n;
+    n = n + n2;
+    
+  }
     return 0;
 }
